@@ -41,6 +41,7 @@ TBD
 - [Vexera](https://vexera.io/docs/gs) 
 - [Dankmemer](https://dankmemer.lol/)
 - [Mee6](https://mee6.xyz/)
+- [Maki](https://maki.gg/)
 - [More Bots here](https://bots.ondiscord.xyz/)
 
 ### Useful Infomation:
