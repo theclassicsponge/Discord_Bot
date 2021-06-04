@@ -27,12 +27,22 @@
 		#### Front-end:
 			
 			- Framework?
+			- Discord OAuth2 https://discord.com/developers/docs/topics/oauth2
+			- Templates
 			
 		#### Back-end:
 		
 		#### Database:
 		
 		#### Hosting:
+
+		#### Ideas:
+		 	[Dyno](https://dyno.gg/bot)
+			[Rythm](https://rythm.fm/)
+			[Vexera](https://vexera.io/docs/gs) 
+			[Dankmemer](https://dankmemer.lol/)
+			[Mee6](https://mee6.xyz/)
+			[More Bots here](https://bots.ondiscord.xyz/)
 
 	### Discord Bot:
 	
@@ -42,3 +52,9 @@
 		#### Database:
 
 		#### Hosting:
+
+	### Useful Infomation:
+		https://www.youtube.com/watch?v=SwaGOfAKoT0
+		https://droplr.com/how-to/productivity-tools/top-5-discord-moderation-bots-to-keep-your-server-safe/
+	
+		
