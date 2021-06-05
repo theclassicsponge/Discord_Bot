@@ -22,6 +22,7 @@ TBD
 Web Dashboard from website.
 ### Commands
 - !help: Displays all the commands
+- !hellopablo: Pablo quacks at you
 ### Admin?
 TBD
 ## Tech Stack:
