@@ -12,7 +12,14 @@ TBD
 ### Admin:
 TBD
 ## How is it Going to be Used?
-TBD
+- Search for Youtube channels and videos by name
+- Alerts for new videos from followed Youtube channels
+- Alert for new streams from followed Twitch streamers
+- Alert for new tweets from followed Twitter profiles
+- Display a welcome message and rules to new server users
+- Create new roles
+- Record audio as an MP3
+- Moderation tools
 ### User:
 TBD
 ### Admin:
