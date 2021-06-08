@@ -20,6 +20,7 @@ TBD
 - Create new roles
 - Record audio as an MP3
 - Moderation tools
+- Simple games with leaderboards
 ### User:
 TBD
 ### Admin:
