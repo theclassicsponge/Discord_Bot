@@ -31,6 +31,7 @@ Web Dashboard from website.
 ### Commands
 - !help: Displays all the commands
 - !hellopablo: Pablo quacks at you
+- !deletepost(number of posts): deletes previous number of posts
 ### Admin?
 TBD
 ## Tech Stack:
@@ -39,6 +40,8 @@ TBD
 - Python
   - Modules:
    	- [Discord.py](https://pypi.org/project/discord.py/)
+  - APIs:
+  	-[Youtube API](https://developers.google.com/youtube/v3), [Github](https://github.com/googleapis/google-api-python-client)
 		
 #### Database:
 TBD
@@ -58,4 +61,5 @@ TBD
 - [List of Moderation Bots](https://droplr.com/how-to/productivity-tools/top-5-discord-moderation-bots-to-keep-your-server-safe/)
 - [Oauth2 For Adding Discord Login to Website](https://discord.com/developers/docs/topics/oauth2)
 - [A video on adding oauth2 to a website in Flask (How i'd make it)](https://www.youtube.com/watch?v=xiYEKe1Q1MI)
+- [Discord Moderation](https://discord.com/moderation)
 		
