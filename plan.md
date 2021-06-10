@@ -41,7 +41,7 @@ TBD
   - Modules:
    	- [Discord.py](https://pypi.org/project/discord.py/)
   - APIs:
-  	-[Youtube API](https://developers.google.com/youtube/v3), [Github](https://github.com/googleapis/google-api-python-client)
+  	- [Youtube API](https://developers.google.com/youtube/v3), [Github](https://github.com/googleapis/google-api-python-client)
 		
 #### Database:
 TBD
