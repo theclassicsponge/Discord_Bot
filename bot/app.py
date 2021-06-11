@@ -45,7 +45,7 @@ async def youtube(ctx, *, search):
 async def help(ctx):
     """Custom help command that displays a list of bot commands and what the command does."""
     embed = discord.Embed(
-        colour=discord.Colour.orange()
+        colour=discord.Colour.blue()
     )
 
     embed.set_author(name='Help:')
