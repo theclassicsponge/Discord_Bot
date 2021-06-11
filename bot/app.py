@@ -10,11 +10,13 @@ config.read('keys.ini')
 
 @client.event
 async def on_ready():
+    """Indicates that the bot has logged into Discord."""
     print('You have logged in as {0.user}'.format(client))
 
 
 @client.command()
 async def ping(ctx):
+    """Bot replies with Pong!"""
     await ctx.send('Pong!')
 
 
