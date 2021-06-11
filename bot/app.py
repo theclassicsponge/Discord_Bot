@@ -59,7 +59,8 @@ async def help(ctx):
 
 @client.command()
 async def hellopablo(ctx):
+    """The bot replies to the user and displays their name."""
     author = ctx.message.author
-    await ctx.send(f'Hello {author}!')
+    await ctx.send(f'Quack quack {author}!')
 
 client.run(f'{config["KEY"]["key"]}')
