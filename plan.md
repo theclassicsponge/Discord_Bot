@@ -39,7 +39,7 @@ TBD
 #### Back-end:
 - Python
   - Modules:
-   	- [Discord.py](https://pypi.org/project/discord.py/)
+   	- [Discord.py](https://pypi.org/project/discord.py/), [Discord.py docs](https://discordpy.readthedocs.io/en/latest/index.html#)
   - APIs:
   	- [Youtube API](https://developers.google.com/youtube/v3), [Github](https://github.com/googleapis/google-api-python-client)
 		
