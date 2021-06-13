@@ -28,15 +28,15 @@ async def mul(ctx, num1: int, num2: int):
 
 @client.command()
 async def youtube(ctx, *, search):
-    """DOESN'T WORK"""
+    """Takes user input and displays the first youtube video based on the input."""
     query_string = urllib.parse.urlencode({
         'search_query': search
     })
     htm_content = urllib.request.urlopen(
-       'http://www.youtube.com/results?' + query_string
+       f'http://www.youtube.com/results?search_query={query_string}'
     )
 
-    search_results = re.findall('r="watch\?v=(\S{11})', htm_content.read().decode())
+    search_results = re.findall(r"watch\?v=(\S{11})", htm_content.read().decode())
     await ctx.send('http://www.youtube.com/watch?v=' + search_results[0])
     # displays one search result
 
