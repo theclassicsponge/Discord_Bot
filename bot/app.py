@@ -52,6 +52,8 @@ async def help(ctx):
     embed.add_field(name='!ping', value='Returns Pong!', inline=False)
     embed.add_field(name='!hellopablo', value='Pablo quacks at you.', inline=False)
     embed.add_field(name='!mul', value='Multiplies two given integers. I.e. !mul 2 2 displays 4.', inline=False)
+    embed.add_field(name='!youtube', value='Displays a youtube video. I.e. !youtube never gonna give you up displays '
+    'http://www.youtube.com/watch?v=dQw4w9WgXcQ.', inline=False)
 
 
     await ctx.send(embed=embed)
