@@ -41,6 +41,21 @@ async def youtube(ctx, *, search):
     # displays one search result
 
 
+@client.command()
+async def youtubechan(ctx, *, search):
+    """Takes a user input and displays the first youtube channel based on the input DOES NOT WORK."""
+    query_string = urllib.parse.urlencode({
+        'search_query': search
+    })
+    htm_content = urllib.request.urlopen(
+        f'http://www.youtube.com/results?search_query={query_string}'
+    )
+
+    search_results = re.findall(r"https://www.youtube.com/user/(\S{11})", htm_content.read().decode())
+    await ctx.send(f'https://www.youtube.com/results?search_query={search_results[0]}&sp=EgIQAg%253D%253D')
+    # displays one search result
+
+
 @client.command(pass_context=True)
 async def help(ctx):
     """Custom help command that displays a list of bot commands and what the command does."""
@@ -60,9 +75,24 @@ async def help(ctx):
 
 
 @client.command()
+@commands.has_permissions(administrator=True)
+async def clear(ctx, amount=2):
+    await ctx.channel.purge(limit=amount)
+
+# Make sure you don't have a command called "commands"
+@client.command() # As usual
+@commands.has_permissions(administrator=True) # Making sure the person executing the command has the permissions
+async def foo(ctx):
+	await ctx.send("Hello")
+    #ect
+
+
+@client.command()
 async def hellopablo(ctx):
     """The bot replies to the user and displays their name."""
     author = ctx.message.author
     await ctx.send(f'Quack quack {author}!')
 
 client.run(f'{config["KEY"]["key"]}')
+
+
