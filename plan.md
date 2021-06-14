@@ -31,7 +31,7 @@ Web Dashboard from website.
 ### Commands
 - !help: Displays all the commands
 - !hellopablo: Pablo quacks at you
-- !deletepost(number of posts): deletes previous number of posts
+- !clear(number of posts): deletes previous number of posts (the default is 2, the clear command and the previous post).
 ### Admin?
 TBD
 ## Tech Stack:
