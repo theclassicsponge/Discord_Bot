@@ -1,20 +1,23 @@
 import discord
+from discord.ext import commands
 
-@client.event
-async def on_ready():
-    print('You have logged in as {0.user}'.format(client))
 
-@client.event
-async def on_message(message):
-    username = str(message.author).split('#')[0]
-    user_message = str(message.content)
-    channel = str(message.channel.name)
-    print(f'{username}: {user_message} ({channel})')
+class Quack(commands.Cog):
 
-    if message.author == client.user:
-        return
+    def __init__(self, client):
+        self.client = client
 
-    if message.channel.name == 'general':
-        if user_message.lower() == '!hellopablo':
-            await message.channel.send(f'Quack Quack {username}.')
-            return
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print('Quack command is ready.')
+
+    @commands.command()
+    async def hellopablo(self, ctx):
+        """The bot replies to the user and displays their name."""
+        author = ctx.message.author
+        await ctx.send(f'Quack quack {author}!')
+
+
+def setup(client):
+    client.add_cog(Quack(client))
