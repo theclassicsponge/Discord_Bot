@@ -59,6 +59,7 @@ TBD
 - [Dankmemer](https://dankmemer.lol/)
 - [Mee6](https://mee6.xyz/)
 - [Maki](https://maki.gg/)
+- [Nano](https://nanobot.pw/index.html)
 - [More Bots here](https://bots.ondiscord.xyz/)
 - [Top.gg](https://top.gg/)
 - [Discord.bots](https://discord.bots.gg/)
