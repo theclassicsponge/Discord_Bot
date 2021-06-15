@@ -60,6 +60,8 @@ TBD
 - [Mee6](https://mee6.xyz/)
 - [Maki](https://maki.gg/)
 - [More Bots here](https://bots.ondiscord.xyz/)
+- [Top.gg](https://top.gg/)
+- [Discord.bots](https://discord.bots.gg/)
 
 ### Useful Infomation:
 - [Youtube Video on Moderation Bots](https://www.youtube.com/watch?v=SwaGOfAKoT0)
