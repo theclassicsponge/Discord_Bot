@@ -6,7 +6,7 @@ A general purpose server management bot with a web dashboard. It will help organ
 ### Problems to Fix:
 TBD
 ## Who is Going to Use it?
-TBD
+The bot will be used by discord admins, moderators and users in a server and will have various uses for each. admins will assign alerts and specific uses for the bot on the dashboard, moderators will used commands to maintain the server and users will have tools and games to use in the server.
 ### User:
 TBD
 ### Admin:
@@ -19,12 +19,17 @@ TBD
 - Display a welcome message and rules to new server users
 - Create new roles
 - Record audio as an MP3
-- Moderation tools
+- Kick users
+- ban/unban users
+- have cooldown periods to avoid spam
+- Have a banned word filter and warn users 
+- log bans, warnings, and kicks
 - Simple games with leaderboards
+- allow banned or warned users to appeal 
 ### User:
 TBD
 ### Admin:
-TBD
+For admins and moderators 
 ## What is the User Going to See When They Log in?
 ### Graphical Info?
 Web Dashboard from website.
