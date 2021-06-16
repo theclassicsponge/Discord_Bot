@@ -21,6 +21,7 @@ TBD
 - Record audio as an MP3
 - Kick users
 - ban/unban users
+- ban specific links
 - have cooldown periods to avoid spam
 - Have a banned word filter and warn users 
 - log bans, warnings, and kicks
