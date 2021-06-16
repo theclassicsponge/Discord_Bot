@@ -47,7 +47,7 @@ async def clear(ctx, amount=2):
 async def foo(ctx):
 	await ctx.send("Hello")
     #ect
-
+# 123
 
 
 for filename in os.listdir('./commands'):
