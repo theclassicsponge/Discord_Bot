@@ -50,8 +50,6 @@ Games:
 - list of commands 
 - contact info
 - social media links
-
-For admins and moderators 
 ## What is the User Going to See When They Log in?
 ### Graphical Info?
 Web Dashboard from website.
