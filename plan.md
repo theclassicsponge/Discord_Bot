@@ -41,6 +41,7 @@ Utilities:
 - Alert for new tweets from followed Twitter profiles
 - Display a welcome message and rules to new server users
 - Simple games with leaderboards
+
 Games:
 - Coin flip 
 - Blackjack
