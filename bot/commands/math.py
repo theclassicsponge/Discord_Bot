@@ -27,6 +27,5 @@ class Math(commands.Cog):
         await ctx.send(num1-num2)
 
 
-
 def setup(client):
     client.add_cog(Math(client))

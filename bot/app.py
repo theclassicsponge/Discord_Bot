@@ -4,6 +4,7 @@ from discord.ext import commands
 import urllib.parse, urllib.request, re
 import configparser
 
+
 client = commands.Bot(command_prefix="!")
 client.remove_command('help')
 config = configparser.ConfigParser()
@@ -41,12 +42,14 @@ async def ping(ctx):
 async def clear(ctx, amount=2):
     await ctx.channel.purge(limit=amount)
 
+
 # Make sure you don't have a command called "commands"
 @client.command() # As usual
 @commands.has_permissions(administrator=True) # Making sure the person executing the command has the permissions
 async def foo(ctx):
 	await ctx.send("Hello")
     #ect
+
 
 
 
