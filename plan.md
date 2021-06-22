@@ -11,25 +11,46 @@ The bot will be used by discord admins, moderators and users in a server and wil
 TBD
 ### Admin:
 TBD
-## How is it Going to be Used?
+## What Needs to be Added for the Initial Build
+ 
+### Moderation:
+- Kick users
+- ban/unban users
+- softban users
+- clear messages
+- mute user from voice and text chat
+- ban specific links
+- have cooldown periods to avoid spam
+- Have a banned word filter and warn users
+- Record audio as an MP3
+
+### Admin:
+- Create new roles
+- auto assign roles to new users
+- remove roles from users
+- log bans, warnings, and kicks
+- allow banned or warned users to appeal
+- disable a command
+- send message to kicked/banned users
+- edit join and leave message 
+### User:
+Utilities:
 - Search for Youtube channels and videos by name
 - Alerts for new videos from followed Youtube channels
 - Alert for new streams from followed Twitch streamers
 - Alert for new tweets from followed Twitter profiles
 - Display a welcome message and rules to new server users
-- Create new roles
-- Record audio as an MP3
-- Kick users
-- ban/unban users
-- ban specific links
-- have cooldown periods to avoid spam
-- Have a banned word filter and warn users 
-- log bans, warnings, and kicks
 - Simple games with leaderboards
-- allow banned or warned users to appeal 
-### User:
-TBD
-### Admin:
+Games:
+- Coin flip 
+- Blackjack
+- image game
+### Website:
+- add the bot to a server
+- list of commands 
+- contact info
+- social media links
+
 For admins and moderators 
 ## What is the User Going to See When They Log in?
 ### Graphical Info?
