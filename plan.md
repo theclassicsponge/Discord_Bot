@@ -54,10 +54,32 @@ Games:
 ## What is the User Going to See When They Log in?
 ### Graphical Info?
 Web Dashboard from website.
-### Commands
-- !help: Displays all the commands
-- !hellopablo: Pablo quacks at you
-- !clear(number of posts): deletes previous number of posts (the default is 2, the clear command and the previous post).
+## List of Commands for Initial Build
+<details>
+<summary>Click to expand</summary>
+
+| Commands | Description |
+| ------------- | ------------- |
+| **Help**     | **Description** |
+| !help | Displays a list of commands and a description of their function. |
+| **Math**     | **Description** |
+| !mul | Multiplies two given integers. I.e. !mul 2 2 displays 4. |
+| !add | Finds the sum of two given numbers. I.e. !add 2 1 displays 3. |
+| !sub | Subtracts two given numbers. I.e. !sub 3 1 displays 2. |
+| !load <cog name> | Loads a cog. |
+| !unload <cog name> | unloads a cog. |
+| **Moderation**     | **Description** |
+| **Admin**     | **Description** |
+| **Utilities**     | **Description** |
+| !youtube | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. |
+| **Games**     | **Description** |
+| **Misc**     | **Description** |
+| !ping | Returns Pong |
+| !hellopablo | Pablo quacks at you. |
+	
+</details>
+
+
 ### Admin?
 TBD
 ## Tech Stack:
