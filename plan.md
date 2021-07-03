@@ -79,6 +79,11 @@ Web Dashboard from website.
 | **Utilities**     | **Description** |  |
 | !youtube | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. | Yes |
 | **Games**     | **Description** |  |
+| !playgames      | Displays a list of games on the Discord Bot. | No |
+| !playcoinflip    | Flips a coin, displays either heads or tails. | No |
+| !playblackjack   | Starts a blackjack game. | No |
+| !playimagegame   | Starts an image game. | No |
+| !exitgame     | exits game. | No |
 | **Misc**     | **Description** |  |
 | !ping | Returns Pong | Yes |
 | !hellopablo | Pablo quacks at you. | Yes |
