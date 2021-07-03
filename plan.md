@@ -62,22 +62,26 @@ Web Dashboard from website.
 | ------------- | ------------- | ------------- |
 | **Help**     | **Description** | |
 | !help | Displays a list of commands and a description of their function. | Yes |
+| !help [command] | Displays detailed infomation about a command. | No |
 | **Math**     | **Description** |  |
 | !mul | Multiplies two given integers. I.e. !mul 2 2 displays 4. | Yes |
 | !add | Finds the sum of two given numbers. I.e. !add 2 1 displays 3. | Yes |
 | !sub | Subtracts two given numbers. I.e. !sub 3 1 displays 2. | Yes |
 | **Moderation**     | **Description** |  |
-| !kick <user id> | Kick a user from the server. | Yes |
-| !ban <user id> | ban a user from the server indefinatly. | Yes |
-| !unban <user id> | Unban a user from the server. | Yes |
-| !softban <user id> <time in hours> | ban a user for a specifed period of time. | No |
+| !kick @mention | Kick a user from the server. | Yes |
+| !ban @mention | ban a user from the server indefinatly. | Yes |
+| !unban @mention | Unban a user from the server. | Yes |
+| !softban @mention <time in hours> | ban a user for a specifed period of time. | No |
 | !clear <number of posts>| clears a number of posts from a text channel (default is 2 posts). | Yes |
-| !kick <user id> | Kick a user from the server. | Yes |
+| !kick @mention | Kick a user from the server. | Yes |
+| !mute @mention | Mute a user. | No |
+| !unmute @mention | unmutes a user. | No |
+| !mute list | lists muted players. | No |
 | **Admin**     | **Description** |  |
 | !load <cog name> | Loads a cog. | Yes |
 | !unload <cog name> | unloads a cog. | Yes |
 | **Utilities**     | **Description** |  |
-| !youtube | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. | Yes |
+| !youtube [video name] | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. | Yes |
 | **Games**     | **Description** |  |
 | !playgames      | Displays a list of games on the Discord Bot. | No |
 | !playcoinflip    | Flips a coin, displays either heads or tails. | No |
