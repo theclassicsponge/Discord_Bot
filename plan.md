@@ -58,24 +58,30 @@ Web Dashboard from website.
 <details>
 <summary>Click to expand</summary>
 
-| Commands | Description |
-| ------------- | ------------- |
-| **Help**     | **Description** |
-| !help | Displays a list of commands and a description of their function. |
-| **Math**     | **Description** |
-| !mul | Multiplies two given integers. I.e. !mul 2 2 displays 4. |
-| !add | Finds the sum of two given numbers. I.e. !add 2 1 displays 3. |
-| !sub | Subtracts two given numbers. I.e. !sub 3 1 displays 2. |
-| !load <cog name> | Loads a cog. |
-| !unload <cog name> | unloads a cog. |
-| **Moderation**     | **Description** |
-| **Admin**     | **Description** |
-| **Utilities**     | **Description** |
-| !youtube | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. |
-| **Games**     | **Description** |
-| **Misc**     | **Description** |
-| !ping | Returns Pong |
-| !hellopablo | Pablo quacks at you. |
+| Commands | Description | Added |
+| ------------- | ------------- | ------------- |
+| **Help**     | **Description** | |
+| !help | Displays a list of commands and a description of their function. | Yes |
+| **Math**     | **Description** |  |
+| !mul | Multiplies two given integers. I.e. !mul 2 2 displays 4. | Yes |
+| !add | Finds the sum of two given numbers. I.e. !add 2 1 displays 3. | Yes |
+| !sub | Subtracts two given numbers. I.e. !sub 3 1 displays 2. | Yes |
+| **Moderation**     | **Description** |  |
+| !kick <user id> | Kick a user from the server. | Yes |
+| !ban <user id> | ban a user from the server indefinatly. | Yes |
+| !unban <user id> | Unban a user from the server. | Yes |
+| !softban <user id> <time in hours> | ban a user for a specifed period of time. | No |
+| !clear <number of posts>| clears a number of posts from a text channel (default is 2 posts). | Yes |
+| !kick <user id> | Kick a user from the server. | Yes |
+| **Admin**     | **Description** |  |
+| !load <cog name> | Loads a cog. | Yes |
+| !unload <cog name> | unloads a cog. | Yes |
+| **Utilities**     | **Description** |  |
+| !youtube | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. | Yes |
+| **Games**     | **Description** |  |
+| **Misc**     | **Description** |  |
+| !ping | Returns Pong | Yes |
+| !hellopablo | Pablo quacks at you. | Yes |
 	
 </details>
 
