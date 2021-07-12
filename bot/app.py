@@ -4,7 +4,6 @@ from discord.ext import commands
 import urllib.parse, urllib.request, re
 import configparser
 
-
 client = commands.Bot(command_prefix="!")
 client.remove_command('help')
 config = configparser.ConfigParser()
@@ -49,7 +48,7 @@ async def clear(ctx, amount=2):
 async def foo(ctx):
 	await ctx.send("Hello")
     #ect
-
+# 123
 
 
 
