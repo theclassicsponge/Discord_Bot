@@ -80,6 +80,7 @@ Web Dashboard from website.
 | **Admin**     | **Description** |  |
 | !load <cog name> | Loads a cog. | Yes |
 | !unload <cog name> | unloads a cog. | Yes |
+| !changeprefix <newprefix> | Changes prefix on the server. | Yes |
 | **Utilities**     | **Description** |  |
 | !youtube [video name] | Displays a youtube video. I.e. !youtube never gonna give you up displays 'http://www.youtube.com/watch?v=dQw4w9WgXcQ'. | Yes |
 | **Games**     | **Description** |  |
